@@ -1,0 +1,104 @@
+a{
+    text-decoration: none;
+}
+.line1 li{
+    list-style-type: none;
+}
+.line2 li{
+    list-style-type: none;
+}
+.line3 li{
+    list-style-type: none;
+}
+.line4 li{
+    list-style-type: none;
+}
+.line5 li{
+    list-style-type: none;
+}
+.line li::marker {
+    color: blue;
+    
+}
+.line1 a{
+    display: block;
+    padding: 10px 15px;
+    border: 1px solid blue;
+    margin-top: 5px;
+    width: 250px;
+}
+.line1 a:hover{
+    color: rgb(1, 1, 71);
+}
+.line2 a {
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    background: rgb(102, 101, 101) ;
+    margin-top: 5px;
+    
+    width: 250px;
+}
+.line2 a:hover{
+    background: none;
+    color: black;
+    border: 1px solid black;
+}
+.line3 a {
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    background: rgb(0, 102, 255) ;
+    margin-top: 5px;
+    width: 250px;
+}
+.line3 a:hover{
+    background: none;
+    color: blue;
+    border: 1px solid rgb(0, 102, 255);
+}
+.line3 a:hover::after{
+    content: url("./img/blue.png");
+    width: 10px;
+    height: 10px;
+    float: right;
+}
+.line4 li {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid blue;
+}
+.line4 a:hover{
+    color: red;
+}
+.line5 li {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid blue;
+}
+.line5 li:hover{
+    display: inline-block;
+    background: gray ;
+    border: 1px solid black;
+}
+.line5 li a:hover{
+        color: white;
+
+}
+.line6 {
+    background: orange;
+}
+.line6 a{
+    color: white;
+}
+.line6 li{
+    display: inline-block;
+    text-decoration: none;  
+    padding: 5px;
+}
+.line6 li:hover{
+    background: red;
+}
+

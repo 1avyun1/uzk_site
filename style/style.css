@@ -1,1 +1,96 @@
+@font-face {
+    font-family: buble;
+    src: url("./ofont.ru_Bubble\ Sans.ttf");
+}
+.prew{
+    width: 200px;
+    height: 100px;
+}
+.new1{
+    background: url("../img/дедсцветком.jpg");
+    background-size: cover;
+}
+.new2{
+    background: url("../img/scale_1200.jfif");
+    background-size: cover;
+}
+.new3{
+    background: url("../img/ff89e10785583fecdca2c3c4f1e30133.jpeg");
+    background-size: cover;
+}
+.aside p{
+    color:#b0c4b1 ;
+    margin: 10px;
+}
+body{
+    background-color:#b0c4b1;
+}
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 18px;
+}
+.photo img{
+    float: right;
+    margin: 20px;
+}
+p{
+    font-size: 16px;
+}
+*{
+    font-family:buble ;
+    color:#4a5759;
+}
+ol li a{
+    color:#4a5759;
+}
+ul li{
+    display: inline-block;
+    color: #b0c4b1;
+}
+ul{
+    background:#4a5759;
+    color: #b0c4b1;
+}
+li a{
+    text-decoration: none;
+    color: #b0c4b1;
+}
+li{
+    padding: 10px;
+    color: #b0c4b1;
+}
+.content{
+    display: flex;
+
+}
+.content main{
+    width: 70%;
+}
+.content aside{
+    width: 30%;
+    background: #4a5759;
+}
+.secta{
+    display: flex;
+}
+.a1{
+    width: 50%;
+}
+.a2{
+    width: 50%;
+}
+.secta2{
+    display: flex;
+}
+.b1{
+    width: 50%;
+}
+.b2{
+    width: 50%;
+}
 

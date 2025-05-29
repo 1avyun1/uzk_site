@@ -1,0 +1,26 @@
+@keyframes slide {
+    0% {
+        left: 5px;
+    }
+    100% {
+        left: 480px;
+    }
+}
+
+.square:hover {
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: .5s;
+}
+
+.square {
+    background: rgb(3, 4, 46);
+    height: 100px;
+    position: absolute;
+    width: 100px;
+}
+
+figure {
+    margin: 0;
+}

@@ -1,0 +1,52 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    gap: 20px;
+    width: 500px;
+    
+}
+article{
+    width: 150px;
+    height: 200px;
+    background: #ddd7c1;
+    box-shadow: #3f3f3f 2px 2px 10px;
+
+}
+.back{
+    height: 70px;
+    width: 150px;
+    background: url("./wash-u-victory-peta-latino.jpg");
+    background-size:cover ;
+}
+.back1{
+    height: 70px;
+    width: 150px;
+    background: url("./koshka-na-zel-nom-lugu-na-fon.jpg");
+    background-size:cover ;
+}
+.glavprice
+{
+    margin: 15px 5px 10px 90px;
+}
+.price{
+    font-size: 16px;
+    
+}
+.pricetwo{
+    font-size: 12px;
+    color: #3f3f3f;
+    text-decoration: line-through;
+}
+.r1{
+    margin-left: 10px;
+    color: rgb(212, 181, 5);
+}
+.r2{
+    color: rgb(169, 167, 167);
+}
+.text{
+    
+    margin-left: 10px;
+}

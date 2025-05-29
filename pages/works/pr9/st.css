@@ -1,0 +1,56 @@
+.line li{
+    display: inline-block;
+    background: pink;
+    padding: 10px;
+    margin: 0 10px;
+}
+.links a{
+    display: block;
+    color:white;
+    background: blue;
+    padding: 10px;
+    margin: 10px 0;
+    width: 250px;
+    text-decoration: none;
+}
+.blocks{
+    margin: 30px 0;
+}
+.blocks div{
+    display: inline;
+    background: red;
+    padding: 10px;
+    margin: 0px 10px;
+}
+div.non{
+    display: none ;
+}
+.links-markers a{
+    display: list-item;
+    background: black;
+    color: white;
+    padding: 5px;
+    width: 250px;
+}
+.post1, .post2{
+    color: white;
+    background: #930303;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border: 1px dashed red;
+}
+.post2 .image{
+    float: right;
+    background: url("./media/weather-snow.jpg");
+    background-size: cover;
+}
+.post1 .image{
+    float: left;
+    background: url("./media/weather-blizzard.jpg");
+    background-size: cover;
+}
+
+

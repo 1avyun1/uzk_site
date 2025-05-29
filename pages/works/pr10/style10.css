@@ -1,0 +1,30 @@
+*{
+    font-family: text;
+}
+@font-face {
+    font-family: text;
+    src: url("./fonts/Roboto/Roboto-Regular.ttf");
+}
+.wrapper{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 333px 373px 300px;
+    justify-content: center;
+    margin: 192px 230px 0px 230px;
+}
+.prof{
+    font-size: 24px;
+}
+.niz{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 333px 373px 300px;
+    background: url("./img/город\ фон\ \(1\).png");
+    color: white;
+    background-size: cover ;
+    height: 540px;
+    text-align: center;
+}
+.niz h2{
+    font-size: 50px;
+}

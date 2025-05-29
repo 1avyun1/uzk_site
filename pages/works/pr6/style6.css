@@ -1,0 +1,49 @@
+body{
+    background: rgb(220, 252, 250);
+}
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 18px;
+}
+p{
+    font-size: 16px;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li{
+    display: inline-block;
+}
+ul{
+    background:rgb(149, 218, 200) ;
+
+}
+li{
+    padding: 10px;
+}
+.flex{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+}
+article{
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+.flex1{
+    display: flex;
+    
+}
+.flex1 aside{
+    background: rgb(149, 218, 200);
+}
+
+
+

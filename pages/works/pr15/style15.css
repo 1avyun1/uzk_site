@@ -1,0 +1,38 @@
+.sabaki{
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    display: grid;
+    gap: 10px;
+    height: 630px;
+    grid-template-columns: 489px 376px 379px;
+    grid-template-rows: 2fr 1fr 2fr;
+}
+.img1{
+    background: url("./img/image\ 1.png") center ;
+    background-size: cover;
+    grid-row: span 3;
+}
+.img2{
+    background: url("./img/image\ 2.png") center ;
+    background-size: cover;
+}
+.img3{
+    background: url("./img/image\ 3.png") center ;
+    background-size: cover;
+}
+.img6{
+    background: url("./img/image\ 4.png") center ;
+    background-size: cover;
+}
+.img7{
+    background: url("./img/image\ 5.png") center ;
+    background-size: cover;
+}
+.img4{
+    grid-column: span 2;
+}
+h2{
+    text-align: center;
+}

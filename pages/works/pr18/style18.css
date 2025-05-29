@@ -1,0 +1,51 @@
+@font-face {
+    font-family: text;
+    src: url("./fonts/Figtree-Light.ttf");
+}
+*{
+    font-family: text;
+}
+.content {
+    display: flex;
+}
+.content main{
+    width: 100%;
+}
+.content .aside{
+    width: 20%;
+}
+.aside{
+    margin: 10px;
+    border-right: 1px solid  coral;
+    height: fit-content;
+}
+.aside div{
+    border-top: 1px solid coral;
+    margin: 5px;
+    border-bottom: 1px solid  coral;
+    border-right: 1px solid coral;
+}
+.aside .verx{
+    border-top: none;
+}
+.aside .niz{
+    border-bottom: none;
+}
+.bur2{
+    width: 300px;
+    margin: 20px 10px 0px 10px;
+}
+.main{
+    text-align: left;
+    margin: 30px;
+    line-height:30px;
+}
+.main h2{
+    text-transform:uppercase;
+    margin: auto;
+    
+}
+.point {
+    display: flex;
+    justify-content: center;
+}
